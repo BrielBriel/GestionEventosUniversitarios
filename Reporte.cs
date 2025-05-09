@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 
 namespace EventosUniversitarios
 {
-    public class Ponente
+    public class Reporte
     {
         [Key] public int Id { get; set; }
-        public string? Nombre { get; set; }
-        public string? Biografia { get; set; }
-        public string? Correo { get; set; }
-        public List<Sesion>? SesionesAsignadas { get; set; }
+        public string? Tipo { get; set; }
+        public DateTime? FechaGeneracion { get; set; }
+        public string? DatosResumen { get; set; }
 
     }
 }
