@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventosUniversitarios", "Ev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionEventosUniversitarios.API", "..\APIGestionEventosUniversitarios\GestionEventosUniversitarios.API.csproj", "{D7CFC522-EA3A-40C9-80DA-CDB320691E85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionEventosUniversitarios.API.consumer", "..\GestionEventosUniversitarios.API.consumer\GestionEventosUniversitarios.API.consumer.csproj", "{D4E6CF59-1032-4CFC-8FA5-7F64C8EBB3F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D7CFC522-EA3A-40C9-80DA-CDB320691E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7CFC522-EA3A-40C9-80DA-CDB320691E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7CFC522-EA3A-40C9-80DA-CDB320691E85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E6CF59-1032-4CFC-8FA5-7F64C8EBB3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E6CF59-1032-4CFC-8FA5-7F64C8EBB3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E6CF59-1032-4CFC-8FA5-7F64C8EBB3F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E6CF59-1032-4CFC-8FA5-7F64C8EBB3F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
